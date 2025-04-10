@@ -4,11 +4,15 @@ import styles from "../styles/Signin.module.css";
 
 export default function Home() {
     return (
-        <div className={styles.login}>
+        <div className={styles.container}>
+            <div className={styles.login}>
             <h1 className={styles.home}>Log In</h1>
             <p className={styles.conta}>Don't have an account?</p>
+            <div className={styles.email}>
             <p className={styles.name}>Email Adress</p>
             <input className={styles.input} type= "text" id = "taskInput" placeholder=""></input>
+            </div>
+            
             
 
             <div className={styles.email}>
@@ -21,5 +25,7 @@ export default function Home() {
 
             </div>
         </div>
+        </div>
+        
     )
 }
