@@ -1,0 +1,38 @@
+.home {
+    margin-left: 350px;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(158, 158, 154);
+}
+
+.name {
+    border-radius: 25px;
+}
+
+.conta{
+margin-top: 20px;
+margin-left: 300px;
+}
+
+.email {
+    margin-top: 20px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.button {
+    display: flex;
+    background-color: rgb(252, 151, 0);
+    padding: 10px 30px;
+    font-weight: bold;
+    margin-left: 340px;
+}
