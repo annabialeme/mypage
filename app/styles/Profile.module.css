@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(205, 222, 236);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(177, 193, 245);
+    border-radius: 5px;
+    width: 400px;
+    padding: 20px;
+}
+
+.p {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
