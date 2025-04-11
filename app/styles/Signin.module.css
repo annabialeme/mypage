@@ -2,6 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('../img//login.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .home {
   font-size: 20px;
@@ -9,7 +13,7 @@
   margin-bottom: 20px;
 }
 
-.conta, .senha {
+.conta-p, .senha {
     font-size: 20px;
     justify-content: center;
     display: flex;
@@ -19,7 +23,7 @@
 .login {
     display: flex;
     flex-direction: column;
-    background-color: rgb(158, 158, 154);
+    background-color: rgb(177, 193, 245);
     border-radius: 5px;
     width: 400px;
     padding: 20px;
@@ -51,7 +55,7 @@ margin-left: 300px;
 
 .button {
     display: flex;
-    background-color: rgb(252, 151, 0);
+    background-color: rgb(247, 187, 97);
     width: 100%;
     padding: 10px;
     border-radius: 5px;

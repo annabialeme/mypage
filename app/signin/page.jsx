@@ -9,12 +9,10 @@ export default function Home() {
             <h1 className={styles.home}>Log In</h1>
             <p className={styles.conta}>Don't have an account?</p>
             <div className={styles.email}>
-            <p className={styles.name}>Email Adress</p>
+            <p className={styles.name}>Email Address</p>
             <input className={styles.input} type= "text" id = "taskInput" placeholder=""></input>
             </div>
-            
-            
-
+        
             <div className={styles.email}>
                 <p>Password</p>
                 <input className={styles.input} type= "text" id = "taskInput" placeholder=""></input>
